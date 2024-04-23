@@ -28,7 +28,7 @@ erased-serde = "0.4.1"
 reqwest = {version = "0.11.0", features = ["json"], default-features=false}
 chrono = "0.4"
 log = "0.4"
-gauth = "0.7.0"
+gauth = { version = "0.8.0", features = ["token-watcher"] }
 dotenv = "0.15.0"
 
 [dev-dependencies]
